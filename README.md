@@ -111,3 +111,6 @@ archetypeArtifactId=ydj-probase-archetype
 archetypeVersion=1.0-SNAPSHOT
 name=ydj-probase-archetype
 ````
+
+## 四、参考
+- https://maven.apache.org/guides/mini/guide-creating-archetypes.html
