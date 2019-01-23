@@ -37,12 +37,18 @@ mvn archetype:generate -DarchetypeCatalog=local
 mvn archetype:generate -DarchetypeGroupId=com.ydj.test -DarchetypeArtifactId=ydj-probase-archetype -DarchetypeVersion=1.0-SNAPSHOT -DarchetypeCatalog=internal
 ````
 ### 2.3、使用发布到公司maven私服的脚手架创建新项目——IDEA界面方式
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190123105247985.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0xvdmVKYXZhWURK,size_16,color_FFFFFF,t_70)（和我们平时使用官方的脚手架一样）
+
+（和我们平时使用官方的脚手架一样）
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190123105247985.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0xvdmVKYXZhWURK,size_16,color_FFFFFF,t_70)
    
 ## 三、脚手架创建过程
 ### 3.1、抽象简化出一模板项目ydj-probase
+
 （模板骨架项目中保留如pom、spring、log4j等最小配置和最基本示例代码）
+
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190123110608907.png)
+
 ### 3.2、生成脚手架
 - 在ydj-probase根路径下执行maven命令：
 ````
